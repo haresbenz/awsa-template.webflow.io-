@@ -5081,7 +5081,8 @@ html {
     aspect-ratio: 16 / 9;
     border: 0px none var(--border);
     object-fit: fill;
-    background-image: url("https://cdn.prod.website-files.com/696959e4ed1e5a9d6799a34f/696959e4ed1e5a9d6799a5e1_683aff1469d09089843bf689_E-Commerce%20%20Website%20Design.avif");
+    background-image: url("../images/marketing.avif");
+    /* background-image: url("https://cdn.prod.website-files.com/696959e4ed1e5a9d6799a34f/696959e4ed1e5a9d6799a5e1_683aff1469d09089843bf689_E-Commerce%20%20Website%20Design.avif"); */
     background-position: 0 0;
     background-size: cover;
     border-radius: 0;
