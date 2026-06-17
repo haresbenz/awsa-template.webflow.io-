@@ -4677,7 +4677,8 @@ html {
   .divabsolutefirst {
     grid-column-gap: 12px;
     grid-row-gap: 12px;
-    background-image: url("https://cdn.prod.website-files.com/696959e4ed1e5a9d6799a34f/69696db7c7d14895d39d5264_0fa65054d4c7ee761dd0840193b56181_herman-aasly-KQkwnE1XM1g-unsplash.jpg");
+    /* background-image: url("https://cdn.prod.website-files.com/696959e4ed1e5a9d6799a34f/69696db7c7d14895d39d5264_0fa65054d4c7ee761dd0840193b56181_herman-aasly-KQkwnE1XM1g-unsplash.jpg"); */
+    background-image: url("../images/background.jpg");
     background-position: 100%;
     background-size: cover;
     flex-flow: column;
