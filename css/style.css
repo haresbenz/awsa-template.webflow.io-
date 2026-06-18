@@ -8802,6 +8802,14 @@ html {
   
 
   /* CONTACT SECTION CUSTOM */
+  .contactwrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .contact-right .contact-block {
+    text-align: center;
+  }
 
 .contactwrapper {
   display: flex;
@@ -8817,8 +8825,16 @@ html {
   width: 45%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;   /* center everything */
+  justify-content: flex-start;
 }
+
+/* .contact-right {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+} */
 
 .contact-title {
   font-size: 28px;
@@ -8846,8 +8862,9 @@ html {
 }
 
 .qr-box img {
-  width: 180px;
-  margin-bottom: 20px;
+  width: 260px;   /* reduce size */
+  height: auto;
+  border-radius: 6px;
 }
 
 /* RESPONSIVE */
