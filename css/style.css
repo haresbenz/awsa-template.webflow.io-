@@ -8895,8 +8895,8 @@ html {
   /* position: absolute;   sticks to screen */
   top: 35px;
   left: 45px;
-  width: 54px;       /* make it small */
-  height: 54px;
+  width: 14px;       /* make it small */
+  height: 14px;
   object-fit: contain;
   z-index: 9999;     /* stays above everything */
 }
