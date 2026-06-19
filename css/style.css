@@ -8890,3 +8890,13 @@ html {
 .herotext {
   font-size: 112px;
 }
+
+.top-left-icon {
+  /* position: absolute;   sticks to screen */
+  top: 35px;
+  left: 45px;
+  width: 54px;       /* make it small */
+  height: 54px;
+  object-fit: contain;
+  z-index: 9999;     /* stays above everything */
+}
