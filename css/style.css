@@ -8895,8 +8895,40 @@ html {
   /* position: absolute;   sticks to screen */
   top: 35px;
   left: 45px;
-  width: 4px;       /* make it small */
-  height: 4px;
+  width: 54px;       /* make it small */
+  height: 54px;
   object-fit: contain;
   z-index: 9999;     /* stays above everything */
+}
+
+.about-section {
+  padding: 80px 20px;
+  background: #fff;
+  color: #111;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 36px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  color: #444;
+}
+
+.about-tagline {
+  margin-top: 30px;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
