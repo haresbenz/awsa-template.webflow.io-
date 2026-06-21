@@ -8932,3 +8932,39 @@ html {
   font-size: 18px;
   letter-spacing: 1px;
 }
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  margin: 60px auto;
+  position: relative;
+}
+
+.track {
+  display: flex;
+  gap: 15px;
+  width: max-content;
+  will-change: transform;
+}
+
+.track img {
+  height: 200px;
+  width: 220px; /* controls how many visible */
+  object-fit: cover;
+  flex-shrink: 0;
+
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .track img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .track img {
+    width: 150px;
+  }
+}
