@@ -5520,7 +5520,7 @@ html {
   }
   
   .heading1 {
-    /* background-image: radial-gradient(circle farthest-corner at 50% 50%, var(--green), #a7a7a7de), url("https://cdn.prod.website-files.com/696959e4ed1e5a9d6799a34f/69fc9fcefa14594913f103b5_ChatGPT%20Image%205%20may%202026%2C%2016_41_02.png"); */
+    background-image: radial-gradient(circle farthest-corner at 50% 50%, var(--green), #a7a7a7de), url("https://cdn.prod.website-files.com/696959e4ed1e5a9d6799a34f/69fc9fcefa14594913f103b5_ChatGPT%20Image%205%20may%202026%2C%2016_41_02.png");
     opacity: 1;
     filter: drop-shadow(2px 2px 6px #5e5e5e70);
     pointer-events: auto;
